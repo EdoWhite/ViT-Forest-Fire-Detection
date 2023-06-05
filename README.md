@@ -1,4 +1,5 @@
 # Transformers-Based Smoke and Fire Detection in Forest Environments
+<img src="./IMG/WebApp.png">
 
 ## Overview
 
@@ -14,7 +15,6 @@ The final dataset consists of **2525 samples for each of the three classificatio
 
 ## Demo Web Application
 
-<img src="./IMG/WebApp.png">
 To showcase the final model, we developed a simple web application, available at https://huggingface.co/spaces/EdBianchi/Forest-Fire-Detection The demo allows the user to upload an image and predict if there is a smoke, fire or normal situation. We report here a screenshot of the GUI.
 
 ## References
