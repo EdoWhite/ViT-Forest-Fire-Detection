@@ -3,6 +3,8 @@
 
 ## Overview
 
+A running version of the application is [hosted on Huggingface](https://huggingface.co/spaces/EdBianchi/Forest-Fire-Detection).
+
 The proposed system consists of **two main solutions**. In the first solution we design, train, and evaluate a **custom CNN**. Regarding the second solution, we will fine-tune a pretrained **vision transformer**, the Google ViT [1], hosted on the Hugging Face Hub [2]. Results are logged and proposed through WanDB [3]. The performance of the two solutions will be compared and different aspects will be discussed.
 
 The framework used for this experiment is PyTorch with the PyTorch Lightning Module. The final web application to showcase the model is written in Python using the Streamlit library and hosted on the Hugging Face Hub.
@@ -15,7 +17,7 @@ The final dataset consists of **2525 samples for each of the three classificatio
 
 ## Demo Web Application
 
-To showcase the final model, we developed a simple web application, available at https://huggingface.co/spaces/EdBianchi/Forest-Fire-Detection The demo allows the user to upload an image and predict if there is a smoke, fire or normal situation. We report here a screenshot of the GUI.
+To showcase the final model, we developed a simple web application [hosted on Huggingface](https://huggingface.co/spaces/EdBianchi/Forest-Fire-Detection). The demo allows the user to upload an image and predict if there is a smoke, fire or normal situation. We report here a screenshot of the GUI.
 
 ## References
 
